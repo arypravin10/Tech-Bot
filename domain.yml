@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - location_all
+  - hostel_information
+
 
 responses:
   utter_greet:
@@ -28,7 +31,29 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_map:
+  - text: "Check out your desired place."
+    image: "https://th.bing.com/th/id/R.9c002cd106d35dc40d4ef69946961df1?rik=m9Z1rRM0h7KB%2fA&riu=http%3a%2f%2fwww.ku.edu.np%2fnews%2fgallery%2f1%2fKU-Map-Internal.jpg&ehk=M28cE2cEU06G2nWzCqzrZK96nbe9Wrk236LAiyyOkuU%3d&risl=&pid=ImgRaw&r=0"
+
+  utter_hostelinformation:
+  - text: "Kathmandu University has several hostels, two in the main premises, one for boys and the other for girls. There are also graduate hostels for both boys and girls. Each hostel is secured by guards and is provided with an internet facility and hot water (solar). All the rooms are well furnished.
+
+The university provides hostels to the students (both boys and girls). Priorities are given to the students from outside the locality.
+
+International students are provided single accommodation at the guest house within the university premises. "
+    image: "https://cdn.ku.edu.np/XH-Oblf-GGP-Ubfgry1626247064.wct/2/KU-Boys-Hostel.jpg"
+    image: "https://cdn.ku.edu.np/Tveyf_Ubfgry1626247097.wct/2/KU-Girls-Hostel.jpg"
+
+    
+
+  
+
+actions:
+  - action_custom_action
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+
