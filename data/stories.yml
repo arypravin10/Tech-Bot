@@ -28,3 +28,13 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: location_request
+  steps:
+  - intent: location_all
+  - action: utter_map
+  
+- story: hostel_information
+  steps:
+  - intent: hostel_information
+  - action: utter_hostelinformation
