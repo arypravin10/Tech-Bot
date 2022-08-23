@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    -
 
 - intent: goodbye
   examples: |
@@ -89,3 +90,48 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+# location request
+- intent: location_all
+  examples: |
+    - Can you provide me location of canteen?
+    - location of canteen?
+    - Where is canteen?
+    - Could you help me finding canteen of KU?
+    - Where can i find canteen plzz
+    - Please find me canteen
+    - Canteen kataa xa
+    - Canteen ko location paam na
+    - where is fee payement service?
+    - Where can i pay my tution fee?
+    - Where is bank?
+    - Can you provide me location of bank?
+    - location of bank
+    - location of fee payment
+    - Where is bank located at?
+    - Where can i know about fee information?
+    - fee ko barema bujhna kataa janee ho?
+    - where is the library?
+    - Where can i find books?
+    - Can you provide me location of library?
+    - location of library
+    - Where can i find library?
+    - Where is library located at?
+    - How can i get to the library?
+    - library kataa ho?
+    - location of libary
+    - Where is libary?
+    - places inside ku
+    - important places inside KU
+    - Can you provide me road map inside Kathmandu University?
+
+
+# hostel information inside KU
+- intent: hostel_information
+  examples: |
+    - Can you provide information about hostel inside KU?
+    - KU hostel information
+    - How to apply for college hostel?
+    
+
+ 
