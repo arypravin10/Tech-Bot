@@ -120,7 +120,7 @@ responses:
   
   utter_map:
    - text: "Check out your desired place."
-     image: "https://th.bing.com/th/id/R.9c002cd106d35dc40d4ef69946961df1?rik=m9Z1rRM0h7KB%2fA&riu=http%3a%2f%2fwww.ku.edu.np%2fnews%2fgallery%2f1%2fKU  -Map  -Internal.jpg&ehk=M28cE2cEU06G2nWzCqzrZK96nbe9Wrk236LAiyyOkuU%3d&risl=&pid=ImgRaw&r=0"
+     image: "https://i.postimg.cc/CLfmLmY7/Location.jpg"
 
   utter_hostelinformation:
    - text: "Kathmandu University has several hostels, two in the main premises, one for boys and the other for girls. There are also graduate hostels for both boys and girls. Each hostel is secured by guards and is provided with an internet facility and hot water (solar). All the rooms are well furnished.The university provides hostels to the students (both boys and girls). Priorities are given to the students from outside the locality.
