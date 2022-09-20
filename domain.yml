@@ -96,9 +96,16 @@ intents:
  - smalltalk_user_wants_to_see_agent_again
  - smalltalk_user_wants_to_talk
  - smalltalk_user_will_be_back
-
+ - card_procedure
+ - cateen_card
 
 responses:
+  utter_card_procedure:
+   - text: "To make Id card, you have to submit recent pp sixed photo along with informations such as batch, Department and Faculty to librarian. Once the card is ready, you can get it from there. It works both as your library card and canteen card"
+
+  utter_canteen_card:
+   - text: "The library card you got from library can be used as canteen card. First, fill the voucher of desired amount from ku bank. Then, the voucher is to be given to canteen's staff. He/She will transfer the amount to your card through software. Repeat the process if your balance gets low."
+  
   utter_greet:
    - text: "Hey! How are you?"
 
@@ -651,6 +658,8 @@ actions:
   - smalltalk_user_will_be_back
   - action_custom_action
   - action_syllabus
+  - card_procedure
+  - canteen_card
       
 
 session_config:

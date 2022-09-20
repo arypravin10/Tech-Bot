@@ -39,6 +39,16 @@ stories:
   - intent: hostel_information
   - action: utter_hostelinformation
 
+- story: card_procedure
+  steps:
+  - intent: card_procedure
+  - action: utter_card_procedure
+
+- story: canteen_card
+  steps:
+  - intent: canteen_card
+  - action: utter_canteen_card
+
 - story: syllabus_information
   steps:
   - intent: get_syllabus

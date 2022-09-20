@@ -125,6 +125,30 @@ nlu:
       - important places inside KU
       - Can you provide me road map inside Kathmandu University?
 
+  # card procedure
+  - intent: card_procedure
+    examples: |
+      - Can you tell me more about Id card?
+      - How can we get our Id card?
+      - Where can i get my Id card?
+      - What is the procedure of making Id card?
+      - How can I make canteen card?
+      - Where can I get my canteen card?
+
+  #canteen_card
+  - intent: canteen_card
+    examples: |
+      - How do we use Id card in canteen?
+      - Can we use Id card in canteen?
+      - How do I use Id card in canteen?
+      - Can I use Id card in canteen?
+      - Is id card also valid in canteen?
+      - How to convert Id card to canteen card?
+      - Information about Canteen card
+      - How to make canteen card?
+
+
+
   # hostel information inside KU
   - intent: hostel_information
     examples: |
