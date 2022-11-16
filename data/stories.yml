@@ -36,13 +36,125 @@ stories:
   
 - story: hostel_information
   steps:
-  - intent: hostel_information
+  - intent: hostelinformation
   - action: utter_hostelinformation
+
+- story: boys_hostel
+  steps:
+  - intent: Boys_hostel
+  - action: utter_boys_hostel
+
+- story: girls_hostel
+  steps:
+  - intent: Girls_hostel
+  - action: utter_girls_hostel
 
 - story: syllabus_information
   steps:
   - intent: get_syllabus
   - action: action_syllabus
+
+- story: Eligibility_information
+  steps:
+  - intent: eligibility_information
+  - action: utter_eligibility_information
+
+- story: School_of_Arts_Eligibility_information
+  steps: 
+  - intent: School_of_Arts
+  - action: utter_school_of_Arts
+
+- story: School_of_Education_Eligibility_information
+  steps: 
+  - intent: School_of_Education
+  - action: utter_school_of_Education
+
+- story: School_of_Engineering_Eligibility_information
+  steps: 
+  - intent: School_of_Engineering
+  - action: utter_school_of_Engineering
+
+- story: School_of_Management_Eligibility_information
+  steps: 
+  - intent: School_of_Management
+  - action: utter_school_of_Management
+
+- story: School_of_Science_Eligibility_information
+  steps: 
+  - intent: School_of_Science
+  - action: utter_school_of_Science
+
+- story: Academic_calander_information
+  steps:
+  - intent: Academic_calander
+  - action: utter_academic_calander
+
+- story: canteen information
+  steps:
+  - intent: canteen
+  - action: utter_canteen
+
+- story : central_canteen_location
+  steps:
+  - intent: central_canteen
+  - action: utter_central_canteen
+
+- story: mess_location
+  steps:
+  - intent: mess
+  - action: utter_mess
+
+- story: cafe_location
+  steps:
+  - intent: cafe
+  - action: utter_cafe
+
+- story: library_information
+  steps:
+  - intent: library_informations
+  - action: utter_library_informations
+
+- story: library_location
+  steps:
+  - intent: library_location
+  - action: utter_library_location
+
+- story: library_rules
+  steps:
+  - intent: library_rules
+  - action : utter_library_rules
+
+
+- story: Hostel fee
+  steps:
+  - intent: hostel_fee
+  - action : utter_hostel_fee
+
+- story: Hostel facilities
+  steps:
+  - intent: hostel_facilities
+  - action : utter_hostel_facilities
+
+- story: Hostel contact number
+  steps:
+  - intent: hostel_contact_number
+  - action : utter_hostel_contact_number
+
+- story: Apply for hostel
+  steps:
+  - intent: Apply_hostel
+  - action: utter_apply_hostel
+
+- story: Admission procedure
+  steps:
+  - intent: Admission
+  - action: utter_admission
+
+
+
+
+
+
 
 - story: path_smalltalk_agent_acquaintance
   steps:
@@ -463,3 +575,4 @@ stories:
   steps:
   - intent: smalltalk_user_will_be_back
   - action: utter_smalltalk_user_will_be_back
+
