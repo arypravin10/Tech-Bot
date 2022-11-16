@@ -16,7 +16,8 @@ nlu:
       - goodmorning
       - goodevening
       - good afternoon
-      -
+      - hey whats'up
+      
 
   - intent: goodbye
     examples: |
@@ -94,14 +95,6 @@ nlu:
   # location request
   - intent: location_all
     examples: |
-      - Can you provide me location of canteen?
-      - location of canteen?
-      - Where is canteen?
-      - Could you help me finding canteen of KU?
-      - Where can i find canteen plzz
-      - Please find me canteen
-      - Canteen kataa xa
-      - Canteen ko location paam na
       - where is fee payement service?
       - Where can i pay my tution fee?
       - Where is bank?
@@ -111,6 +104,144 @@ nlu:
       - Where is bank located at?
       - Where can i know about fee information?
       - fee ko barema bujhna kataa janee ho?
+      - places inside ku
+      - important places inside KU
+      - Can you provide me road map inside Kathmandu University?
+
+  # hostel information inside KU
+  - intent: hostelinformation
+    examples: |
+      - Can you provide information about hostel inside KU?
+      - KU hostel 
+      - Can you tell me about KU hostel ?
+
+  # Syallbus
+  - intent: get_syllabus
+    examples: |
+      - Can i get syllabus of Computer Science and Engineering?
+      - syllabus
+
+  - intent: Boys_hostel
+    examples: |
+      - Can i get information about boys hostel?
+      - Boys hostel 
+
+  - intent: Girls_hostel
+    examples: |
+      - Can i get information about girls hostel?
+      - Girls hostel
+
+  - intent: Apply_hostel
+    examples: |
+      - How to apply for hostel ?
+      - Applying process for hostel
+      - How can we get selected for college hostel?
+
+  - intent: hostel_fee
+    examples: |
+      - What's the college hostel fee ?
+      - Information about hostel fee
+
+  - intent: hostel_facilities
+    examples: |
+      - What are the facilities of KU hostel ?
+      - How many individuals are allowed in college hostel?
+
+
+  - intent: hostel_contact_number
+    examples: |
+      - contact number of KU hostel
+      - hostel warden number
+
+  - intent: Admission
+    examples: |
+      - admission information
+      - admission procedure
+
+
+  - intent: eligibility_information
+    examples: |
+      - What is the eligibility for admission?
+      - Fill here2
+      - Fill here3
+
+  - intent: School_of_Arts
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+  
+  - intent: School_of_Education
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: School_of_Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+  
+  - intent: School_of_Management
+    examples : |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: School_of_Science
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+
+  - intent: Academic_Calander
+    examples : |
+      - academic calander
+      - Fill here2
+      - Fill here3
+
+  - intent: canteen
+    examples : |
+      - Canteen information
+      - Where is canteen
+      - Can you provide me location of canteen?
+      - location of canteen?
+      - Where is canteen?
+      - Could you help me finding canteen of KU?
+      - Where can i find canteen plzz
+      - Please find me canteen
+      - Canteen kataa xa
+      - Canteen ko location paam na
+
+  - intent: central_canteen
+    examples : |
+      - Where is central canteen?
+      - location of central canteen?
+      - Could you help me finding central canteen
+      - central canteen kataa cha
+
+  - intent: mess
+    examples : |
+      - Where is mess?
+      - location of mess?
+      - Could you help me finding mess?
+      - mess kataa cha
+
+  - intent: cafe
+    examples : |
+      - Where is cafe?
+      - Where is cafetaria?
+      - Could you help me finding cafetaria?
+
+  - intent: library_informations
+    examples : |
+      - Can you give me informations about library?
+      - Details about library
+
+  - intent: library_location
+    examples : |
       - where is the library?
       - Where can i find books?
       - Can you provide me location of library?
@@ -121,21 +252,22 @@ nlu:
       - library kataa ho?
       - location of libary
       - Where is libary?
-      - places inside ku
-      - important places inside KU
-      - Can you provide me road map inside Kathmandu University?
 
-  # hostel information inside KU
-  - intent: hostel_information
-    examples: |
-      - Can you provide information about hostel inside KU?
-      - KU hostel information
-      - How to apply for college hostel?
+  - intent: genre_of_books
+    examples : |
+      - What kind of books we can find ?
+      - What varieties of books we can find ?
+      - What are the range of text books ?
+      - genre of books
 
-  # Syallbus
-  - intent: get_syllabus
-    examples: |
-      - Can i get syllabus of Computer Science and Engineering?
+  - intent: library_rules
+    examples : |
+      - What are the rules for library ?
+      - What things are allowed and prohibited inside library ?
+      - code of conduct inside library
+  
+  
+
 
   - intent: smalltalk_agent_acquaintance
     examples: |
@@ -1842,7 +1974,7 @@ nlu:
 
   - intent: smalltalk_user_wants_to_talk
     examples: |
-      - I just want to talk
+      - I just want to talk 
       - let's discuss something
       - let's have a discussion
       - can I speak
@@ -1861,4 +1993,12 @@ nlu:
       - I'll be back
       - I promise to come back
       - I'll be back in a few minutes
+
+
+  - intent: long_feedback
+    examples: |
+     - long feedback
+     - start feedback
+     - give feedback
+     - begin feedback
 
