@@ -1,0 +1,14 @@
+.rw-conversation-container .rw-header{
+    background-color: #0b0d25;
+}
+
+.rw-conversation-container .rw-client{
+       background-color: #ec3211 !important; 
+}
+.conversation-container close-button {
+    background-color: #08df5a;
+}
+
+.rw-launcher{
+    background-color: #1c0df5;
+}
