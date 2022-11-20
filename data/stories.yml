@@ -59,25 +59,12 @@ stories:
   - intent: eligibility_information
   - action: utter_eligibility_information
 
-- story: School_of_Arts_Eligibility_information
-  steps: 
-  - intent: School_of_Arts
-  - action: utter_school_of_Arts
-
-- story: School_of_Education_Eligibility_information
-  steps: 
-  - intent: School_of_Education
-  - action: utter_school_of_Education
 
 - story: School_of_Engineering_Eligibility_information
   steps: 
   - intent: School_of_Engineering
   - action: utter_school_of_Engineering
 
-- story: School_of_Management_Eligibility_information
-  steps: 
-  - intent: School_of_Management
-  - action: utter_school_of_Management
 
 - story: School_of_Science_Eligibility_information
   steps: 
@@ -149,6 +136,84 @@ stories:
   steps:
   - intent: Admission
   - action: utter_admission
+
+- story: Course Structures
+  steps:
+  - intent: course_structures
+  - action: utter_course_structures
+
+- story: BioTechnology(course_structures)
+  steps:
+  - intent: BioTechnology 
+  - action: utter_BioTechnology
+
+- story: Environmental Science and Engineering(course_structures)
+  steps:
+  - intent: Environmental Science and Engineering
+  - action: utter_Environmental Science and Engineering
+
+- story: Mathematics(course_structures)
+  steps:
+  - intent: Mathematics
+  - action: utter_Mathematics
+
+- story: Pharmacy(course_structures)
+  steps:
+  - intent: Pharmacy
+  - action: utter_Pharmacy
+
+- story: Physics(course_structures)
+  steps:
+  - intent: Physics
+  - action: utter_Physics
+
+- story: Chemical Engineering(course_structures)
+  steps:
+  - intent: Chemical Engineering
+  - action: utter_Chemical Engineering
+
+- story: Civil Engineering (course_structures)
+  steps:
+  - intent: Civil Engineering
+  - action: utter_Civil Engineering
+
+- story: Architecture(course_structures)
+  steps:
+  - intent: Architecture
+  - action: utter_Architecture
+
+- story: Computer Science(course_structures)
+  steps:
+  - intent: Computer Science
+  - action: utter_Computer Science
+
+- story: Computer Engineering (course_structures)
+  steps:
+  - intent: Computer Engineering
+  - action: utter_Computer Engineering
+
+- story: Artificial Intelligence(course_structures)
+  steps:
+  - intent: Artificial Intelligence
+  - action: utter_Artificial Intelligence
+
+- story: Geomatics Engineering(course_structures)
+  steps:
+  - intent: Geomatics Engineering
+  - action: utter_Geomatics Engineering
+
+- story: Electrical Engineering(course_structures)
+  steps:
+  - intent: Electrical Engineering
+  - action: utter_Electrical Engineering
+
+- story: Mechanical Engineering(course_structures)
+  steps:
+  - intent: Mechanical Engineering
+  - action: utter_Mechanical Engineering
+
+
+
 
 
 

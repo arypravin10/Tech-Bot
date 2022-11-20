@@ -120,6 +120,21 @@ intents:
  - hostel_facilities
  - hostel_contact_number
  - Admission
+ - course_structures
+ - Pharmacy
+ - Physics
+ - Environmental Science and Engineering
+ - Computer Science
+ - Computer Engineering
+ - Mechanical Engineering
+ - Electrical Engineering
+ - Architecture
+ - Chemical Engineering
+ - Mathematics
+ - BioTechnology
+ - Artificial Intelligence
+ - Geomatics Engineering
+ - Civil Engineering
 
 
 
@@ -140,8 +155,90 @@ responses:
        payload: "/hostelinformation"
      - title: "Canteen"
        payload: "/canteen"
+     - title: "Course Structures"
+       payload: "/course_structures"
+
    - text: "Hi! I am Bot-Verse from Kathmandu University. We provide essential information for the students."
    - text: "What would you like to know about?"
+
+
+
+  utter_course_structures:
+   - text: "Choose your departments"
+     buttons:
+     - title: "Pharmacy"
+       payload: "/Pharmacy"
+     - title: "Mathematics"
+       payload: "/Mathematics"
+     - title: "Architecture"
+       payload: "/Architecture"
+     - title: "Physics"
+       payload: "/Physics"
+     - title: "Computer Science"
+       payload: "/Computer Science"
+     - title: "Geomatics Engineering"
+       payload: "/Geomatics Engineering"
+     - title: "Electrical Engineering"
+       payload: "/Electrical Engineering"
+     - title: "Mechanical Engineering"
+       payload: "/Mechanical Engineering"
+     - title: "Chemical Engineering"
+       payload: "/Chemical Engineering"
+     - title: "Environmental Engineering"
+       payload: "/Environmental Engineering"
+     - title: "Civil Engineering"
+       payload: "/Civil Engineering"
+     - title: "BioTechnology"
+       payload: "/BioTechnology"
+
+
+
+
+  utter_Pharmacy:
+   - text: "Check out the link https://pharm.ku.edu.np/course-structure"
+
+  utter_Physics:
+   - text: "Check out the link https://phys.ku.edu.np/course-structure"
+
+  utter_Mathematics:
+   - text: "Check out the link https://math.ku.edu.np/course-structure"
+
+  utter_Architecture:
+   - text: "Check out the link https://civil.ku.edu.np/static-page/course-curriculum-of-b.arch"
+
+  utter_Civil Engineering:
+   - text: "Check out the link https://civil.ku.edu.np/static-page/be-in-civil-engineering-course-curriculum"
+
+  utter_Computer Engineering:
+   - text: "Check out the link  https://comp.ku.edu.np/static-page/course-catalog-be-computer-engineering"
+
+
+  utter_Computer Science:
+   - text: "Check out the link https://comp.ku.edu.np/static-page/course-catalog-bsc-computer-science"
+
+  utter_Environmental Science and Engineering:
+   - text: "Check out the link https://ese.ku.edu.np/course-structures"
+
+  utter_Geomatics Engineering:
+   - text: "Check out the link https://cdn.ku.edu.np/Pbhefr-Flyynohf-bs-OR-va-TR-cebtenz1593405337.cqs/1"
+
+  utter_Electrical Engineering:
+   - text: "Check out the link https://elec.ku.edu.np/program/ung-in-electrical-and-electronics-engineering"
+
+  utter_Mechanical Engineering:
+   - text: "Check out the link https://cdn.ku.edu.np/OR-Pbhefr_Fgehpgher_Sbe_20179I7_Svany_sbe_pbhefr_pngnybthr_%28_Rssrpgvir_sebz_2019%29_erivfrq1583484422.cqs/1"
+
+  utter_BioTechnology:
+   - text: "Check out the link https://biot.ku.edu.np/course-structure"
+
+  utter_Chemical Engineering:
+   - text: "Check out the link https://chem.ku.edu.np/static-page/course-catalogue-2020"
+
+  utter_Artificial Intelligence:
+   - text: "Check out the link https://comp.ku.edu.np/static-page/bachelor-of-technology-in-artificial-intelligence"
+
+
+
     
 
   utter_cheer_up:
@@ -233,22 +330,11 @@ International students are provided single accommodation at the guest house with
   utter_eligibility_information: 
    - text: "Choose your desired departments!"
      buttons: 
-     - title: "School of Arts"
-       payload: "/School_of_ Arts"
-     - title: "School of Education"
-       payload: "/School_of_ Education"
      - title: "School of Engineering"
        payload: "/School_of_ Engineering"
-     - title: "School of Management"
-       payload: "/School_of_ Management"
      - title: "School of Science"
        payload: "/School_of_ Science"
 
-  utter_school_of_Arts:
-   - text: "Fill here"
-
-  utter_school_of_Education:
-   - text: "Fill here"
 
   utter_school_of_Engineering:
    - text: "Select respective departments.."
@@ -270,9 +356,6 @@ International students are provided single accommodation at the guest house with
      - title: "BTech in AI (Artifical Intelligence)"
        payload: "/Artificial_Intelligence"
 
-  utter_school_of_Management:
-   - text: "Nepali and non-Nepali nationals with a 10+2 or Intermediate Degree or equivalent of at least two years duration in any discipline with a minimum of 50 percent in aggregateor CGPA of 2.0 on the scale of 4.0 from universities/boards recognized by Kathmandu University are eligible to apply for Kathmandu University's Four-Year Management Undergraduate Program.
-Note: Applicants who have completed the qualifying educational level but are awaiting the final results may apply on a provisional basis, provided he/she has already taken the final annual examination of the program and passed all papers of the first year with minimum 50 percent in aggregate or CGPA 2.0 on the scale of 4.0."
 
   utter_school_of_Science:
    - text: "Select respective departments.."

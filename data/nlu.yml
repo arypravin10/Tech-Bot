@@ -165,17 +165,7 @@ nlu:
       - Fill here2
       - Fill here3
 
-  - intent: School_of_Arts
-    examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
-  
-  - intent: School_of_Education
-    examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+
 
   - intent: School_of_Engineering
     examples: |
@@ -183,11 +173,6 @@ nlu:
       - Fill here2
       - Fill here3
   
-  - intent: School_of_Management
-    examples : |
-      - Fill here1
-      - Fill here2
-      - Fill here3
 
   - intent: School_of_Science
     examples: |
@@ -265,6 +250,99 @@ nlu:
       - What are the rules for library ?
       - What things are allowed and prohibited inside library ?
       - code of conduct inside library
+
+  - intent: course_structures
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: BioTechnology
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Environmental Science and Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Mathematics
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Pharmacy
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+ 
+  - intent: Physics
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Chemical Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Civil Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Architecture
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Computer Science
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Computer Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Artificial Intelligence
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Geomatics Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Electrical Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: Mechanical Engineering
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+
+  
   
   
 
