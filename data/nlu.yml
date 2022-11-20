@@ -342,6 +342,32 @@ nlu:
       - Fill here3
 
 
+  - intent : teachers_information
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+
+  - intent : teachers_information_CSE
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent : teachers_information_Enve
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+  - intent: fee_structure
+    examples: |
+      - Fill here1
+      - Fill here2
+      - Fill here3
+
+
   
   
   

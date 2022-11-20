@@ -212,6 +212,28 @@ stories:
   - intent: Mechanical Engineering
   - action: utter_Mechanical Engineering
 
+- story : Teachers Information
+  steps:
+  - intent: teachers_information
+  - action: utter_teachers_information
+
+- story: Teachers Information of CSE
+  steps:
+  - intent: teachers_information_CSE
+  - action: utter_teachers_information_CSE
+
+- story: Teachers Information of Enve
+  steps:
+  - intent: teachers_information_Enve
+  - action: utter_teachers_information_Enve
+
+- story: Fee structure
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure
+
+
+
 
 
 

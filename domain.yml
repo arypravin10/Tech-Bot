@@ -135,6 +135,10 @@ intents:
  - Artificial Intelligence
  - Geomatics Engineering
  - Civil Engineering
+ - teachers_information_CSE
+ - teachers_information_Enve
+ - teachers_information
+ - fee_structure
 
 
 
@@ -157,6 +161,10 @@ responses:
        payload: "/canteen"
      - title: "Course Structures"
        payload: "/course_structures"
+     - title: "Teachers Information"
+       payload: "/teachers_information"
+     - title: "Fee Structures"
+       payload: "/fee_structure"
    - text: "Hi! I am Bot-Verse from Kathmandu University. We provide essential information for the students."
    - text: "What would you like to know about?"
 
@@ -414,15 +422,14 @@ International students are provided single accommodation at the guest house with
        payload: "/library_rules"
 
   utter_library_location:
-   - text: "Location: Behind Administration block
-  Check the map: "
+   - text: "Location: Behind Administration block.     Check the map: "
      image: "./assets/Location.jpg"
 
   utter_genre_of_books:
    - text: "You can find every genre of books here. You can also check the link of e-library https://ku.edu.np/central-library for further informations."
 
   utter_library_rules:
-   - text: "Rules and Regulations
+   - text: "Rules and Regulations: 
 1. Library Opening Hours: 7 A.M. - 8 P. M. in weekdays and 12 PM - 6 PM on Saturday
 2. Books Circulation : 7 A. M.- 7:30 P. M.
 3. All bags, Briefcases and personal belongings should be left outside the Library. Books as well as the personal files should be checked out from the checking counter.
@@ -447,6 +454,30 @@ b. Second Chance:
 c. Third Chance:
   . all of the penalties mentioned in (b)
   . action to be taken for expulsion"
+
+
+
+  utter_teachers_information:
+    - text: "Click the button: "
+      buttons:
+      - title: "Computer Science and Engineering"
+        payload: "/teachers_information_CSE"
+      - title: "Environmental Engineering"
+        payload: "/teachers_information_Enve"
+
+  utter_teachers_information_CSE:
+    - text : "Here are some of the informations:  "
+      image: "./assets/cse.png"
+
+  utter_teachers_information_Enve:
+    - text : "Here are some of the informations:  "
+      image: "./assets/enve.png"
+
+  utter_fee_structure:
+    - text : "Fee Structure: "
+      image: "./assets/fee.jpg"
+
+
 
   utter_smalltalk_agent_acquaintance:
     - text: "I'm a conversational app."
