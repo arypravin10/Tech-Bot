@@ -157,7 +157,6 @@ responses:
        payload: "/canteen"
      - title: "Course Structures"
        payload: "/course_structures"
-
    - text: "Hi! I am Bot-Verse from Kathmandu University. We provide essential information for the students."
    - text: "What would you like to know about?"
 
@@ -185,7 +184,7 @@ responses:
      - title: "Chemical Engineering"
        payload: "/Chemical Engineering"
      - title: "Environmental Engineering"
-       payload: "/Environmental Engineering"
+       payload: "/Environmental Science and Engineering"
      - title: "Civil Engineering"
        payload: "/Civil Engineering"
      - title: "BioTechnology"
