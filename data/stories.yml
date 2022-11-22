@@ -54,22 +54,6 @@ stories:
   - intent: get_syllabus
   - action: action_syllabus
 
-- story: Eligibility_information
-  steps:
-  - intent: eligibility_information
-  - action: utter_eligibility_information
-
-
-- story: School_of_Engineering_Eligibility_information
-  steps: 
-  - intent: School_of_Engineering
-  - action: utter_school_of_Engineering
-
-
-- story: School_of_Science_Eligibility_information
-  steps: 
-  - intent: School_of_Science
-  - action: utter_school_of_Science
 
 - story: Academic_calander_information
   steps:
@@ -131,6 +115,11 @@ stories:
   steps:
   - intent: Apply_hostel
   - action: utter_apply_hostel
+
+- story: Admission
+  steps:
+  - intent: Admission
+  - action : utter_Admission
 
 - story: Admission procedure
   steps:
@@ -246,6 +235,17 @@ stories:
   steps:
   - intent: fee_structure
   - action: utter_fee_structure
+
+
+- story: card_procedure
+  steps:
+  - intent: card_procedure
+  - action: utter_card_procedure
+
+- story: canteen_card
+  steps:
+  - intent: canteen_card
+  - action: utter_canteen_card
 
 
 
@@ -677,4 +677,6 @@ stories:
   steps:
   - intent: smalltalk_user_will_be_back
   - action: utter_smalltalk_user_will_be_back
+
+
 
