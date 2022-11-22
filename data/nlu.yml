@@ -95,6 +95,7 @@ nlu:
   # location request
   - intent: location_all
     examples: |
+      - map of kathmandu university locations
       - where is fee payement service?
       - Where can i pay my tution fee?
       - Where is bank?
@@ -119,6 +120,29 @@ nlu:
       - where can i find hostel?
       - hostel information
       - hostel info
+
+
+  # card procedure
+  - intent: card_procedure
+    examples: |
+      - Can you tell me more about Id card?
+      - How can we get our Id card?
+      - Where can i get my Id card?
+      - What is the procedure of making Id card?
+      - How can I make canteen card?
+      - Where can I get my canteen card?
+
+  #canteen_card
+  - intent: canteen_card
+    examples: |
+      - How do we use Id card in canteen?
+      - Can we use Id card in canteen?
+      - How do I use Id card in canteen?
+      - Can I use Id card in canteen?
+      - Is id card also valid in canteen?
+      - How to convert Id card to canteen card?
+      - Information about Canteen card
+      - How to make canteen card?
       
       
       
@@ -180,6 +204,11 @@ nlu:
       - Who is the warden of boys hostel?
       - how do i contact hostel warden?
 
+  - intent: Admission
+    examples: |
+      - information about admission in Kathmandu University
+      - do you have a data related to admission
+
   - intent: Admission_procedure
     examples: |
       - admission information
@@ -190,6 +219,7 @@ nlu:
       - admision criteria
       - what are the requirements to get admission i ku?
       - Am i eligible for admission at ku?
+      - Eligibilty Information
 
   - intent: Application_criteria
     examples: |
@@ -202,35 +232,11 @@ nlu:
       - how to apply for cbt test?
       - steps to follow for cbt application
 
-
-
-  - intent: eligibility_information
-    examples: |
-      - ?
-      - Fill here2
-      - Fill here3
-
-
-
-  - intent: School_of_Engineering
-    examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
-  
-
-  - intent: School_of_Science
-    examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
-
-
   - intent: Academic_Calander
     examples : |
       - academic calander
-      - Fill here2
-      - Fill here3
+      - calander for students
+      - college calander
 
   - intent: canteen
     examples : |
@@ -242,22 +248,21 @@ nlu:
       - Could you help me finding canteen of KU?
       - Where can i find canteen plzz
       - Please find me canteen
-      - Canteen kataa xa
-      - Canteen ko location paam na
 
   - intent: central_canteen
     examples : |
-      - Where is central canteen?
+      - centralcanteen
       - location of central canteen?
       - Could you help me finding central canteen
-      - central canteen kataa cha
+      - where can i find central canteen
+
 
   - intent: mess
     examples : |
       - Where is mess?
       - location of mess?
       - Could you help me finding mess?
-      - mess kataa cha
+
 
   - intent: cafe
     examples : |
@@ -279,7 +284,6 @@ nlu:
       - Where can i find library?
       - Where is library located at?
       - How can i get to the library?
-      - library kataa ho?
       - location of libary
       - Where is libary?
 
@@ -298,119 +302,105 @@ nlu:
 
   - intent: course_structures
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - course structures
+      - give me some idea about the courses of different departments
+      - course catlaog
 
   - intent: BioTechnology
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Biotechnology courses structure
+      - Biotech courses 
 
   - intent: Environmental Science and Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
-
+      - Environmental Engineering courses structure
+      - Enve courses 
   - intent: Mathematics
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Mathematics courses structure
+      - maths courses 
+      - maths courses for each semester
 
   - intent: Pharmacy
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - pharmacy courses structure
+      - pharma courses 
  
   - intent: Physics
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - physics courses structure
+      - physics courses of every semester
 
   - intent: Chemical Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Chemical Engineering courses structure
+      - Chemical engineering courses 
 
   - intent: Civil Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Civil courses structure
+      - civil coursescatalog 
 
   - intent: Architecture
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Architecture courses structure
+      - Arch courses 
 
   - intent: Computer Science
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Computerscience courses structure
+      - Computer science courses 
 
   - intent: Computer Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - computerengineering courses structure
+      - Computer Eng courses 
 
   - intent: Artificial Intelligence
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Artificial Intelligence courses structure
+      - AI courses 
 
   - intent: Geomatics Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - geomatics courses structure
+      - Geomatics courses 
 
   - intent: Electrical Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - Electrical courses structure
+      - electricalengineering courses 
 
   - intent: Mechanical Engineering
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - mechanical courses structure
+      - mechanicalengineering courses 
 
 
   - intent : teachers_information
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - information about teachers
+      - gmail of teachers
+      - teachers name and email
 
 
   - intent : teachers_information_CSE
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - computerscience n engineering teachers name
+      - CE teachers info
+      - CS teachers name and numbers
 
   - intent : teachers_information_Enve
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - environmental science n engineering teachers name
+      - ENVE teachers info
+      - environment engg teachers name and numbers
 
   - intent: fee_structure
     examples: |
-      - Fill here1
-      - Fill here2
-      - Fill here3
+      - fee structure
+      - fee of semester
+
 
 
   
