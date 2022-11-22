@@ -126,7 +126,6 @@ nlu:
   # Syallbus
   - intent: get_syllabus
     examples: |
-
       - syllabus
       - want syllabus
 
