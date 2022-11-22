@@ -139,7 +139,10 @@ intents:
  - teachers_information_Enve
  - teachers_information
  - fee_structure
-
+ - Admission_criteria
+ - Application_criteria
+ - Application_form
+ - Admission_procedure
 
 
 
@@ -199,7 +202,20 @@ responses:
        payload: "/BioTechnology"
 
 
+  utter_application_criteria:
+    - text: " The required documents to apply for CBT test are:
+      1. Citizenship or passport or driving liscense or admit card of XI,XII
+      2. recent PP sized photo
+      3. The documents should not be more than 500kb
+      To pay the required amount (ie. 2k for soe and 1.5k for sos), Nepal Investment bank details are:
+        a. For SOE: Account number: 00501030255547
+          Account holder: KU-School of Engineering
+        b. For SOS: Account number: 00501030255530
+          Account holder: KU-School of Science"
 
+  utter_application_form:
+    - text: "The online application form is available at http://apply.ku.edu.np/cbt . Fill up this form, attach required documents, pay the required amount through esewa or bank. 
+    After few days you will receive admit card fot the test.Collect it from college premise or print it. Wait for date schedule and appear in the entrance exam. "
 
   utter_Pharmacy:
    - text: "Check out the link https://pharm.ku.edu.np/course-structure"
@@ -269,7 +285,7 @@ responses:
      image: "./assets/Location.jpg"
 
   utter_hostelinformation:
-   - text: "Which one?"
+   - text: "These are the options I have related to your question. Click the one which best suits your question."
      buttons:
      - title: "Boys-Hostel"
        payload: "/Boys_hostel"
@@ -284,38 +300,45 @@ responses:
      - title: "Contact number"
        payload: "hostel_contact_number"
 
-  utter_admission:
-   - text: "   "
+  utter_admission_procedure:
+   - text: "After the CBT merit list publication, those who have been shortlisted/ selected as eligible candidates can go to university for document verification.
+    The document verificaton is done in ku premise in allocated department. When the document verification is done, they can pay allocated amount of fees in the bank and secure their place. "
 
+  utter_admission_criteria:
+    - text: "The criteria to meet eligibility for admission in ku are
+     1. One must have passed PCM(Physics, Chemistry,Maths) in both XI and XII level
+     2. One must have passed CBT test and name should be on merit list
+     3. One must have passed 10 +2 level with minimun of 2.0 GPA"
 
   utter_boys_hostel:
-   - text: "Kathmandu University has several hostels, two in the main premises, one for boys and the other for girls. There are also graduate hostels for both boys and girls. Each hostel is secured by guards and is provided with an internet facility and hot water (solar). All the rooms are well furnished.
+   - text: "Kathmandu University has one main hostel for boys. It is for both undergraduate and graduate students. The hostel is secured by guards with 24 hrs internet facility and hot water (solar). All the rooms are well furnished.
 
-The university provides hostels to the students (both boys and girls). Priorities are given to the students from outside the locality.
+ Priority is given to the students whose permanent address is outside the kathmandu valley.
 
-International students are provided single accommodation at the guest house within the university premises. "
+International students are provided single accommodation at the guest house within the university premises. You can find the location from the given map: "
      image: "https://cdn.ku.edu.np/XH-Oblf-GGP-Ubfgry1626247064.wct/2/KU-Boys-Hostel.jpg"
      
   utter_girls_hostel:
-   - text: "Kathmandu University has several hostels, two in the main premises, one for boys and the other for girls. There are also graduate hostels for both boys and girls. Each hostel is secured by guards and is provided with an internet facility and hot water (solar). All the rooms are well furnished.
+   - text: "Kathmandu University has one main hostel for girls. It is for both undergraduate and graduate students. The hostel is secured by guards  with 24 hrs internet facility and hot water (solar). All the rooms are well furnished.
 
-The university provides hostels to the students (both boys and girls). Priorities are given to the students from outside the locality.
+ Priority is given to the students whose permanent address is outside the kathmandu valley.
 
-International students are provided single accommodation at the guest house within the university premises. "
+International students are provided single accommodation at the guest house within the university premises. You can find the location from the given map: "
      image: "https://cdn.ku.edu.np/Tveyf_Ubfgry1626247097.wct/2/KU-Girls-Hostel.jpg"
 
   utter_apply_hostel:
-   - text: "Hostel form can be downloaded online and the form can be sent to kugh@ku.edu.np (for girls) and kubh@ku.edu.np (for boys) along with required certificates:
+   - text: "Hostel form can be downloaded online directly from the website. Then fill up the form, sent it to kugh@ku.edu.np (for girls) and kubh@ku.edu.np (for boys) along with required certificates:
   . Citizenship
   . SEE/SLC and +2 marksheet
   . PP sized photo"
 
   utter_hostel_fee:
-   - text: "Hostel fee structure: Rs.7500 per semester"
-   - text: " Students should give Rs.7500 per semester"
+   - text: "Hostel fee is around Rs.7500 per semester"
+   - text: " Students should pay Rs.7500 per semester"
 
   utter_hostel_facilities:
-   - text: ". 24 hrs internet servies
+   - text: "The facilities of our hostels includes:
+  . 24 hrs internet servies
   . Water facility
   . Rooms with beds, bookrack, cupboard and study table.
   . One kitchen in each floor"

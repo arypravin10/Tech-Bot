@@ -113,55 +113,101 @@ nlu:
     examples: |
       - Can you provide information about hostel inside KU?
       - KU hostel 
-      - Can you tell me about KU hostel ?
+      - Where is KU hostel ?
+      - I want to know about hostel
+      - Is there any hostel in ku?
+      - where can i find hostel?
+      - hostel information
+      - hostel info
+      
+      
+      
 
   # Syallbus
   - intent: get_syllabus
     examples: |
-      - Can i get syllabus of Computer Science and Engineering?
+
       - syllabus
+      - want syllabus
 
   - intent: Boys_hostel
     examples: |
       - Can i get information about boys hostel?
+      - Is there boys hostel in ku premises?
+      - Where is the boys hostel located?
+      - where can i find boys hostel?
       - Boys hostel 
 
   - intent: Girls_hostel
     examples: |
       - Can i get information about girls hostel?
+      - Where is the girls hostel located?
+      - Is there any girls hostel in ku premises?
+      - where can i find girls hostel?
       - Girls hostel
 
   - intent: Apply_hostel
     examples: |
       - How to apply for hostel ?
       - Applying process for hostel
+      - How do I apply for hostel?
       - How can we get selected for college hostel?
+      - How can i apply for hostel?
 
   - intent: hostel_fee
     examples: |
-      - What's the college hostel fee ?
+      - What is the college hostel fee ?
       - Information about hostel fee
+      - How much should i pay for hostel?
+      - Is hostel fee costly?
+      - How much is hostel fee?
+      - What is the cost of hostel?
+
 
   - intent: hostel_facilities
     examples: |
       - What are the facilities of KU hostel ?
       - How many individuals are allowed in college hostel?
+      - facilities in hostel?
+      - Is there internet service in hostel?
+      - What is the water condition of hostel?
 
 
   - intent: hostel_contact_number
     examples: |
       - contact number of KU hostel
       - hostel warden number
+      - who is the warden of girls hostel?
+      - Who is the warden of boys hostel?
+      - how do i contact hostel warden?
 
-  - intent: Admission
+  - intent: Admission_procedure
     examples: |
       - admission information
       - admission procedure
 
+  - intent: Admission_criteria
+    examples: |
+      - admision criteria
+      - what are the requirements to get admission i ku?
+      - Am i eligible for admission at ku?
+
+  - intent: Application_criteria
+    examples: |
+      - application criteria
+      - How do I apply for CBT?
+      - What is the requirement to fill form for CBT?
+
+  - intent: Application_form
+    examples: |
+      - how to apply for cbt test?
+      - steps to follow for cbt application
+
+
 
   - intent: eligibility_information
     examples: |
-      - What is the eligibility for admission?
+      - ?
       - Fill here2
       - Fill here3
 

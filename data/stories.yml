@@ -134,8 +134,23 @@ stories:
 
 - story: Admission procedure
   steps:
-  - intent: Admission
-  - action: utter_admission
+  - intent: Admission_procedure
+  - action: utter_admission_procedure
+
+- story: Application criteria
+  steps:
+  - intent: Application_criteria
+  - action: utter_application_criteria
+
+- story: Admission criteria
+  steps:
+  - intent: Admission_criteria
+  - action: utter_admission_criteria
+
+- story: Application form
+  steps:
+  - intent: Application_form
+  - action: utter_application_form
 
 - story: Course Structures
   steps:
