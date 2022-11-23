@@ -365,7 +365,7 @@ International students are provided single accommodation at the guest house with
    - text: "Which one??"
      buttons:
      - title: "Central Canteen"
-       payload: "/cental_canteen"
+       payload: "/central_canteen"
      - title: "Mess"
        payload: "/mess"
      - title: "Cafetaria"
